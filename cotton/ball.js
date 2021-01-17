@@ -23,7 +23,7 @@ export class Ball {
 
     ballGrow(mouse) {
         const maxRadius = 40;
-        const minRadius = 9;
+        const minRadius = 5;
 
         if (Math.abs(mouse.x - this.x ) < 50 && Math.abs(mouse.y - this.y) < 50) {
             if (this.radius < maxRadius) {
