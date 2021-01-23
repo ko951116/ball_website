@@ -89,4 +89,8 @@ class App {
 
 window.onload = () => {
     new App();
+
+    setTimeout(function() { 
+        alert("Touch the balls to bounce them");
+    },2000);
 };

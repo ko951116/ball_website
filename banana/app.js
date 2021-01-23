@@ -94,4 +94,9 @@ class App {
 
 window.onload = () => {
     new App();
+
+    setTimeout(function() { 
+        alert("Click anywhere to bounce the balls");
+    },500);
+
 };
