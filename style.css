@@ -229,7 +229,6 @@ services
    transition: all 0.2s linear;
 }
 .services .serv-content .card .hover_effect:hover h5{
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     opacity: 1;
     -webkit-transform: translateY(0px);
@@ -238,53 +237,9 @@ services
     -ms-transform: translateY(0px);
     transform: translateY(0px);
 }
-
-
-
-.services .serv-content .card p {
-    position: relative;
-    
-    font-size: 16px;
-    font-weight: 100;
-    padding-top: 2px;
-    padding-bottom: 3px;
-}
-.services .serv-content .card span {
-    position: relative;
-
-    
-    padding-left: 6px;
-}
-.services .serv-content .card .hover_effect p {
-    -webkit-transform: translateY(50px);
-    -moz-transform: translateY(50px);
-    -o-transform: translateY(50px);
-    -ms-transform: translateY(50px);
-    transform: translateY(50px);
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    -ms-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-}
-.services .serv-content .card .hover_effect:hover p{
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=100);
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-    -moz-transform: translateY(0px);
-    -o-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    transform: translateY(0px);
-}
-
 
 
 .services .serv-content .card .hover_effect strong {
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
    background-color: rgba(0,0,0, 0.7);
